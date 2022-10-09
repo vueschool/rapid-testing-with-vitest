@@ -1,0 +1,10 @@
+{
+  "name": "deep-merge",
+  "private": true,
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^0.24.0"
+  }
+}
