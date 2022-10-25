@@ -1,0 +1,11 @@
+// Vitest Snapshot v1
+
+exports[`deep merge with overlaps 1`] = `
+{
+  "accounts": {
+    "github": "unknown",
+    "twitter": "antfu7",
+  },
+  "name": "Anthony",
+}
+`;
