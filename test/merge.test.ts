@@ -71,3 +71,10 @@ test('deep merge with overlaps', () => {
     }
   })
 })
+
+test('throws errors on merging two different types', () => {
+  expect(() => deepMerge(
+    ['foo', 'bar'],
+    { foo: 'bar' }
+  )).toThrowError('Can not merge two differnet types')
+})
