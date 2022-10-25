@@ -55,17 +55,32 @@ test('deep merge with overlaps', () => {
       accounts: {
         github: 'unknown'
       },
-      languages: ['javascript']
+      languages: ['js']
     },
     {
       accounts: {
         twitter: 'antfu7'
       },
-      languages: ['typescript', 'vue']
+      languages: ['ts', 'vue']
     }
   )
 
-  expect(merged).toMatchSnapshot()
+  expect(merged).toMatchInlineSnapshot(`
+    {
+      "accounts": {
+        "github": "unknown",
+        "twitter": "antfu7",
+      },
+      "languages": [
+        "js",
+        "ts",
+        "vue",
+      ],
+      "name": "Anthony",
+    }
+  `)
+
+  expect(Math.sqrt(2)).toMatchInlineSnapshot('1.4142135623730951')
 })
 
 test('throws errors on merging two different types', () => {
