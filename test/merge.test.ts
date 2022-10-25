@@ -54,12 +54,14 @@ test('deep merge with overlaps', () => {
       name: 'Anthony',
       accounts: {
         github: 'unknown'
-      }
+      },
+      languages: ['javascript']
     },
     {
       accounts: {
         twitter: 'antfu7'
-      }
+      },
+      languages: ['typescript', 'vue']
     }
   )
 

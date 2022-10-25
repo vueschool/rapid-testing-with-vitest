@@ -6,6 +6,11 @@ exports[`deep merge with overlaps 1`] = `
     "github": "unknown",
     "twitter": "antfu7",
   },
+  "languages": [
+    "javascript",
+    "typescript",
+    "vue",
+  ],
   "name": "Anthony",
 }
 `;
