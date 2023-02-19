@@ -1,5 +1,5 @@
 {
-  "name": "deep-merge",
+  "name": "vueschool-example-spying",
   "private": true,
   "scripts": {
     "test": "vitest"
