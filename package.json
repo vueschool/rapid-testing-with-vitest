@@ -5,6 +5,7 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "happy-dom": "^10.11.0",
     "msw": "^1.2.4",
     "ofetch": "^1.3.3",
     "vite": "^4.4.9",
