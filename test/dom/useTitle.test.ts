@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { useTitle } from '../src/useTitle'
+import { useTitle } from '../../src/useTitle'
 
 test('useTitle should work', () => {
   document.title = 'Foo'
